@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="LazyPig">
+    <meta name="description" content="html,stydy">
+    <meta http-equiv="refresh" content="30"> 
+    <link rel="icon" href="./head.jpg" type="image/png">
+    <style type="text/css">
+        p {color:black;}
+    </style>
+    <title>Studytest</title>
+</head>
+<body>
+    <a name="top"></a>
+    <p>a <u>common</u> <b>test</b></p>
+    <hr/> <!-- 这是分割线 -->
+    <p>shut up shut up</p>
+    <p>
+        <b>粗体文本</b> <br/>
+        <i>斜体文本</i> <br/>
+        <em>替代斜体</em> <br/>
+        <strong>替代粗体</strong> <br/>
+        这是<sub>下标</sub>和<sup>上标</sup> <br/>
+
+    </p>
+    <img src="./ii.jpg" alt="无法加载图片时就会显示该文字" width="170" height="240" /><br/>
+    <a href="https://www.baidu.com" style="text-decoration: none;">百度</a>
+    <p>点击这个<a href="https://www.baidu.com" target="_blank" noopener>百度</a>不会丢失当前标签页</p>
+    <h1 style="text-align: center;">head</h1>
+    <h2>head</h2>
+    <a href="./account.txt" download="account.txt" title="点击下载">下载文件</a> <br/>
+    <a href="#top">回到首页</a><hr/>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>性别</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>张三</td>
+                <td>20</td>
+                <td>男</td>
+            </tr>
+            <tr>
+                <td>李四</td>
+                <td>21</td>
+                <td>女</td>
+            </tr>
+        </tbody>
+    </table>
+    <ul>
+        <li>第一项</li>
+        <li>第二项</li>
+        <li>第三项</li>
+    </ul>
+    <ol>
+        <li>第一项</li>
+        <li>第二项</li>
+        <li>第三项</li>
+    </ol>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+    
+</body>
+</html>
