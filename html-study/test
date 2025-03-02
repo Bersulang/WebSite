@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zn">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,6 +69,40 @@
         <dt>Milk</dt>
         <dd>- white cold drink</dd>
     </dl>
-    
+    <hr/>
+    <h1>表单</h1>
+    <form action="/" method="post">
+        <label for="name">用户名:</label>
+        <input type="text" name="name" id="name" placeholder="name" required /><br/>
+        <label for="pwd">密码:</label>
+        <input type="password" name="pwd" id="pwd" required /><br/>
+        <label for="gender">性别：</label>
+        <input type="radio" id="male" name="gender" value="male" checked />
+        <label for="male">男</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">女</label>
+        <br/>
+        <input type="checkbox" id="subscribe" name="subscribe" checked>
+        <label for="subscribe">订阅推送</label><br/>
+        <label for="country">国家:</label>
+        <select id="country" name="country">
+            <option value="china">中国</option>
+            <option value="usa">美国</option>
+            <option value="japan">日本</option>
+        </select>
+        <br/>
+        <input type="submit" value="提交" />
+        &copy; &reg;
+    </form>
+    <video width="400" height="300" controls>
+        <source src="./vivi.mp4" type="video/mp4">
+        <source src="./vivi.ogg" type="video/ogg">
+        您的浏览器不支持video标签
+    </video><br/>
+    <audio controls>
+        <source src="./ioio.MP3" type="audio/mpeg">
+        <source src="./ioio.ogg" type="audio/ogg">
+        您的浏览器不支持audio标签
+    </audio>
 </body>
 </html>
