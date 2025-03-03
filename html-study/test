@@ -7,8 +7,9 @@
     <meta name="description" content="html,stydy">
     <meta http-equiv="refresh" content="30"> 
     <link rel="icon" href="./head.jpg" type="image/png">
-    <style type="text/css">
-        p {color:black;}
+    <link rel="stylesheet" href="./beatry.css" type="text/css">
+    <!-- <style type="text/css">
+        p {color:black;} -->
     </style>
     <title>Studytest</title>
 </head>
