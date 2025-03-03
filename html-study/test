@@ -14,11 +14,12 @@
     <title>Studytest</title>
 </head>
 <body>
+    <p>1</p><p>2</p>
     <a name="top"></a>
-    <p>a <u>common</u> <b>test</b></p>
+    <p class="wo">a <u>common</u> <b>test</b></p>
     <hr/> <!-- 这是分割线 -->
-    <p>shut up shut up</p>
-    <p>
+    <p class="wo">shut up shut up</p>
+    <p id="ni">
         <b>粗体文本</b> <br/>
         <i>斜体文本</i> <br/>
         <em>替代斜体</em> <br/>
@@ -34,6 +35,7 @@
     <a href="./account.txt" download="account.txt" title="点击下载">下载文件</a> <br/>
     <a href="#top">回到首页</a><hr/>
     <table border="1">
+        <caption>实例表</caption>
         <thead>
             <tr>
                 <th>姓名</th>
@@ -95,6 +97,24 @@
         <input type="submit" value="提交" />
         &copy; &reg;
     </form>
+
+    <h1 style="text-align:center;">导航栏</h1>
+    <ul class="te">
+        <li><a href="#首页">首页</a></li>
+        <li><a href="#搜索">搜索</a></li>
+        <li><a href="#联系">联系</a></li>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">下拉菜单</a>
+            <div class="dropdown-content">
+              <a href="#">链接 1</a>
+              <a href="#">链接 2</a>
+              <a href="#">链接 3</a>
+            </div>
+          </div>
+    </ul>
+    <div class="jj">这里有提示
+        <span class="kk">这是提示</span>
+    </div>
     <video width="400" height="300" controls>
         <source src="./vivi.mp4" type="video/mp4">
         <source src="./vivi.ogg" type="video/ogg">
