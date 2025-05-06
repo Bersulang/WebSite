@@ -8,6 +8,7 @@
     <meta http-equiv="refresh" content="30"> 
     <link rel="icon" href="./head.jpg" type="image/png">
     <link rel="stylesheet" href="./beatry.css" type="text/css">
+    <script src="./action.js"></script>
     <!-- <style type="text/css">
         p {color:black;}
     </style> -->
@@ -97,24 +98,6 @@
         <input type="submit" value="提交" />
         &copy; &reg;
     </form>
-
-    <h1 style="text-align:center;">导航栏</h1>
-    <ul class="te">
-        <li><a href="#首页">首页</a></li>
-        <li><a href="#搜索">搜索</a></li>
-        <li><a href="#联系">联系</a></li>
-        <div class="dropdown">
-            <a href="#" class="dropbtn">下拉菜单</a>
-            <div class="dropdown-content">
-              <a href="#">链接 1</a>
-              <a href="#">链接 2</a>
-              <a href="#">链接 3</a>
-            </div>
-          </div>
-    </ul>
-    <div class="jj">这里有提示
-        <span class="kk">这是提示</span>
-    </div>
     <video width="400" height="300" controls>
         <source src="./vivi.mp4" type="video/mp4">
         <source src="./vivi.ogg" type="video/ogg">
@@ -125,5 +108,8 @@
         <source src="./ioio.ogg" type="audio/ogg">
         您的浏览器不支持audio标签
     </audio>
+    <h2>script部分</h2>
+    <p id="demo">展示点击按钮的文本</p>
+    <button onclick="myFunction()">点击查看时间</button>
 </body>
 </html>
